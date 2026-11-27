@@ -6,7 +6,7 @@ optional for creditals, uh licenses and tools
 * **`license`** (`string`), distrubition license (such as `"MIT"` or `"All Rights Reserved"`)
 * **`url`** (`string`), any existing url, usually credit pages like github
 * **`product_type`** (`string`), context flag, only `"addon"` is valid
-* **`generated_with`** (`object`), tool names `[google-ai]`, max 32 characters
+* **`generated_with`** (`object`), tool names `[chatgpt, github]`, max 32 characters
 
 ```json
 "metadata": {

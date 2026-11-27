@@ -1,4 +1,5 @@
 This is an example of a simple custom pause menu title, it does not cover the full pause menu.
+however there is documentation to help you understand how to use this example.
 
 For the manifest, replace the two uuid placeholders `uuid: ""` with two different UUIDs 
 then textures/ui, replace title.png with your custom image. I recommend using the websites I provided below

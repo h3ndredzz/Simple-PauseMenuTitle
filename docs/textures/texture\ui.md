@@ -1,18 +1,11 @@
-## `texture/ui.md`
+## `texture\ui.md`
 
-*Notice: I put \ instead so the file name wouldn't create a new folder with the file ui.md inside it
+*Notice: I used `\` instead of `/` so the file name wouldn't create a new folder with `ui.md` inside it*
 
+The `ui` folder inside `textures` holds image files (`.png`, `.jpg`, etc.) for the UI.
 
-the ui folder inside textures `displays images` (png. jpeg. etc)
+This tells the code which textures to use. Since we named our image `title.png`, the game knows to use it for the pause menu title
 
-this is so the code knows which textures to use like since we renamed it to title.png
-the code knows what to use for the pause_menu title
+We can either name our images after existing minecraft textures to replace them with ours, or write our own UI code and use custom textures.
 
-we can either rename our images with premade minecraft textures.
-which overlays their textures with ours.
-
-or we can create our own code and textures.
-
-so lets say our code was looking for a png file called bob.png
-we would have to make a png image named bob.png inside `textures/ui`
-then our code would use the texture of the png for where ever our code places/overlays it.
+Say our code looks for a file called `bob.png`—we would put `bob.png` inside `textures/ui`, and the code would render it wherever we placed it.

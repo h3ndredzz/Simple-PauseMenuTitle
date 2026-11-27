@@ -13,7 +13,7 @@ required, tells minecraft what contents the pack holds. Resource packs need at l
     "type": "resources",
     "uuid": "11111111-1111-1111-1111-111111111111",
     "version":[1, 0, 0],
-    "description": "Textures and UI overrides"
+    "description": "mhm this is a resource pack for sure"
   }
 ]
 ```

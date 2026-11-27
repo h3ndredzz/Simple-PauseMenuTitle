@@ -11,11 +11,14 @@ required, defines the pack's name, ID, version, and engine compatibility
 
 ```json
 "header": {
-  "name": "pack.name",
-  "description": "pack.description",
+  "name": "cool pack",
+  "description": "this pack has chicken butt",
   "uuid": "00000000-0000-0000-0000-000000000000",
   "version":[1, 0, 0],
-  "min_engine_version":,
+  "min_engine_version":[1, 26, 65],
   "pack_scope": "any"
 }
 ```
+I personally just put the min engine to the latest version. v26.25
+version is just so minecraft can tell if you updated your pack's code or version 
+so if you changed it to [1, 1, 0] this is the 10th version of your addon
