@@ -1,10 +1,10 @@
 This is an example of a simple custom pause menu title, it does not cover the full pause menu.
 
-For the manifest, replace uuid: "" with three different UUIDs 
+For the manifest, replace the two uuid placeholders `uuid: ""` with two different UUIDs 
 then textures/ui, replace title.png with your custom image. I recommend using the websites I provided below
 
  You must rename your custom image to title.png
- And must use three different UUIDs
+ And must use two different UUIDs
 
  https://web.blockbench.net/?plugins=minecraft_title_generator
  
